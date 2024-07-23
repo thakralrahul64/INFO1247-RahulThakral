@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A page about Justin Trudeau">
+    <meta name="keywords" content="Justin Trudeau, biography, quotes, video, contact">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Justin Trudeau</title>
+   </head>
+<body>
+    <header>
+        <h1>Justin Trudeau</h1>
+    </header>
+    <main>
+        <section id="content">
+            <article id="life">
+                <header>
+                    <h3>Biography</h3>
+                </header>
+                <presentation>
+                    <blockquote cite="https://en.wikipedia.org/wiki/Justin_Trudeau">
+                        <p>Justin Pierre James Trudeau (born December 25, 1971) is a Canadian politician serving as the 23rd and current prime minister of Canada since 2015 and leader of the Liberal Party since 2013.</p>
+                    </blockquote>
+                        <figure>
+                            <img src="images/justin.jpeg" alt="Justin Trudeau" class="responsive-image" width="300" height="200">
+                            <figcaption>Justin Trudeau in a public event giving speech</figcaption>
+                        </figure>
+                    </iframe>
+                    
+                </presentation>
+            </article>
+            <article id="sayings">
+                <header>
+                    <h3>Famous Quotes</h3>
+                </header>
+                <p><q cite="https://www.brainyquote.com/quotes/justin_trudeau_897357">The diversity of our country is a source of strength, not weakness.</q> - <cite>Justin Trudeau</cite></p>
+            </article>
+            <article id="media">
+                <header>
+                    <h3>Media</h3>
+                </header>
+                <iframe 
+                width="550" height="315" src="https://www.youtube.com/embed/KGSfBbau8XE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </article>
+        </section>
+        <aside id="additional-resources">
+            <section id="external-resources">
+                <header>
+                    <h4>External Resources</h4>
+                </header>
+                <ul>
+                    <li><a href="https://pm.gc.ca/en" target="_blank" title="Official Prime Minister's Website">Prime Minister's Website</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Justin_Trudeau" target="_blank" title="Wikipedia Page">Wikipedia</a></li>
+                    <li><a href="https://www.thecanadianencyclopedia.ca/en/article/justin-trudeau" target="_blank" title="Canadian Encyclopedia Article">Canadian Encyclopedia</a></li>
+                </ul>
+            </section>
+            <section id="get-in-touch">
+                <header>
+                    <h4>Contact Form</h4>
+                </header>
+                <form>
+                    <label for="full-name" class="form-label">Full Name:</label>
+                    <input type="text" id="full-name" name="full-name" class="form-control" required placeholder="Enter your full name">
+                    
+                    <label for="contact-email" class="form-label">Email:</label>
+                    <input type="email" id="contact-email" name="contact-email" class="form-control" required placeholder="Enter your email">
+                    
+                    <label for="contact-phone" class="form-label">Phone Number:</label>
+                    <input type="tel" id="contact-phone" name="contact-phone" class="form-control" placeholder="Enter your phone number">
+                    
+                    <label for="preferred-contact" class="form-label">Preferred Contact Method:</label>
+                    <select id="preferred-contact" name="preferred-contact" class="form-control">
+                        <option value="email" selected>Email</option>
+                        <option value="phone">Phone</option>
+                    </select>
+                    
+                    <label for="contact-message" class="form-label">Message:</label>
+                    <textarea id="contact-message" name="contact-message" class="form-control" placeholder="Your message here"></textarea>
+                    
+                    <button type="submit" class="submit-button">Submit</button>
+                </form>
+            </section>
+        </aside>
+    </main>
+    <footer>
+        <p>&#169; 2024 by Rahul Thakral. All rights reserved.</p>
+    </footer>
+</body>
+</html>

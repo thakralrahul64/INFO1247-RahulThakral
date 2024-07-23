@@ -1,0 +1,159 @@
+/* Name Rahul Thakral Student id-8976497*/
+
+html {
+    font: 20px/1.5 "Arial", "Helvetica", sans-serif;
+    background-color: #f0f5ce;
+    line-height: 2;
+  }
+  
+  body {
+    max-width: 1200px;
+    margin: 2px auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    color: #004499;
+  }
+  
+  header, footer {
+    font-size: medium;
+    background: linear-gradient(to right, #83ead5);
+    color: #1437e4;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  footer {
+    font-size: 0.75rem;
+    text-align: center;
+    background:#ccc;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  h2{
+    font-size: medium;
+  }
+  main {
+    display: flex;
+    justify-content: space-between;
+    width:70%;
+  }
+  main > section {
+    width: 70%;
+  }
+  main > aside {
+    float:right;
+    width: 30%;
+  }
+  
+  #media {
+    float: left;
+    width: 100%;
+  }
+  
+  #life {
+    float: left;
+    width: 70%;
+  }
+  
+  #h3, #life figcaption {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  blockquote {
+    border-left: 5px solid #ccc;
+    padding: 0 1rem;
+    font-style: italic;
+    color: #666;
+  }
+  blockquote p {
+    font-family: 'Georgia', serif;
+    margin:1.2rem 0;
+    border: 7px #f48787;
+    padding:1.2 rem
+  }
+  
+  @media {
+    html {
+      font-size: 18px;
+      max-width: 768px
+    }
+    main {
+      flex-direction: column;
+    }
+    #life, #sayings, #media, main > aside {
+      float: none;
+      width: 100%;
+    }
+  }
+  
+  #quote q {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Times New Roman', serif;
+    color: #e93030;
+    border: 1px solid #aaa;
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+  
+  
+  #media{
+    color: #0c211d;
+    text-align: center;
+  }
+  
+  aside h4, aside label {
+    float:right;
+    font-variant: small-caps;
+    color: #1c84c4;
+    text-align: center;
+  }
+  aside ul {
+    list-style: none;
+    padding: 0;
+  }
+  aside ul li {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  aside ul li a:hover {
+    color: #004499;
+  }
+  aside form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding:10px;
+  }
+  
+  #video{
+    border-color: #f0f5ce;
+    padding: 7px;
+    border-radius: 6px;
+  }
+  aside.form-control {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(18, 48, 48);
+    padding: 0.5rem;
+    background-color: #83ead5;
+  }
+  
+  aside form.submit-button:hover {
+    background-color: #1c75e2;
+  }
+  
+  #formlebel{
+    margin-top: auto;
+  }
